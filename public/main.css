@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellowgreen;
+}
+.nleft
+{
+    margin-left: 50px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.nleft a
+{
+    text-decoration: none;
+    color: #00abf0;
+}
+.nleft a:hover
+{
+    color: white;
+    text-shadow: 2px 2px 4px rgb(20, 143, 245);
+}
+.nright
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    font-weight: 700;
+    transition: 10s;
+}
+.nright a:hover
+{
+    color: white;
+    text-shadow: 2px 2px 4px rgb(20, 143, 245);
+}
+.ele
+{
+    margin: 10px;
+    padding: 20px;
+    color: #00abf0;
+    justify-content: space-between;
+    text-decoration: none;
+}

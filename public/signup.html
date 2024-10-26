@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="cselogin">
+        <form id="myForm" action="/auth" method="POST" enctype="multipart/form-data">
+            <h1 class="sp">REGISTER HERE<img src="/images/girll-removebg-preview.png" class="signing-icon" position="fixed"/></h1>
+            <h4 align="center">back to login?<a href="login.html">click me</a></h4>
+            <table cellspacing="2px" cellpadding="10px" align="center" class="tb">
+                <tr> 
+                    <td class="icon-input-container">
+                        <i class="fas fa-user"></i> 
+                        <input type="text" id="name" name="name" class="rounded-input" placeholder="Enter Name" required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td class="icon-input-container">
+                        <i class="fas fa-key"></i> 
+                        <input type="text" id="pin" name="pin" class="rounded-input" placeholder="Enter pin:" required/><br>
+                    </td>
+                </tr>
+                <tr> 
+                    <td class="icon-input-container">
+                        <i class='fas fa-file-contract'></i>
+                        <input type="file" id="file" name="file" class="rounded-input" required/><br>
+                    </td>
+                </tr>
+                <tr> 
+                    <td class="icon-input-container">
+                        <i class='fas fa-unlock-alt'></i>
+                        <input type="password" id="pass" name="pass" class="rounded-input" placeholder="Enter Password:" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="sp2"><input type="checkbox" id="check1" >show password</td>
+                </tr>
+                <tr> 
+                    <td class="icon-input-container">
+                        <i class='fas fa-lock'></i> 
+                        <input type="password" id="cpass" name="cpass" class="rounded-input" placeholder="Confirm Password:" required/><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="sp2"><input type="checkbox" id="check2" >show password</td>
+                </tr>
+                <tr> 
+                    <td class="icon-input-container">
+                        <i class="fa-solid fa-user-group"></i>
+                        <input type="text" id="fathername" name="fathername" class="rounded-input" placeholder="Enter father Name" required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td class="icon-input-container">
+                        <i class="fa-solid fa-user-group"></i> 
+                        <input type="text" id="mothername" name="mothername" class="rounded-input" placeholder="Enter mother Name" required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td class="icon-input-container">
+                        <i class="fa fa-envelope-open"></i>
+                        <input type="email" id="email" name="email" class="rounded-input" placeholder="xyz01@gmail.com" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="icon-input-container">
+                        <i class='fas fa-venus-mars'></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" id="male" name="gender" value="male" required/>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female" required/>
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr> 
+                    <td class="icon-input-container">
+                        <i class='fas fa-phone'></i>
+                        <input type="tel" name="tel" class="rounded-input"  pattern="^\+91[6-9]\d{9}$" required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td class="icon-input-container">
+                        <i class='far fa-calendar-alt'></i>
+                        <input type="date" name="dob" class="rounded-input"  min="2002-01-01" max="2005-01-01" required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td class="icon-input-container">
+                        <i class="fa fa-address-card"></i>
+                        <input type="text" name="address" class="rounded-input" placeholder="enter city" required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td class="icon-input-container">
+                        <i class='fas fa-user-shield'></i>
+                        <input type="text" id="skey" name="skey" class="rounded-input" placeholder="enter secret key" required/><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" class="submit" value="REGISTER"/></td>
+                </tr>
+            </table>
+             
+        </form>
+        <!-- <img src="/images/girll-removebg-preview.png" class="signing-icon" position="fixed"/> -->
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const checkbox = document.getElementById('check1');
+            const passwordField = document.getElementById('pass');
+    
+            checkbox.addEventListener('change', function () {
+                if (checkbox.checked) {
+                    passwordField.setAttribute('type', 'text');
+                } else {
+                    passwordField.setAttribute('type', 'password');
+                }
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            const checkbox = document.getElementById('check2');
+            const passwordField = document.getElementById('cpass');
+    
+            checkbox.addEventListener('change', function () {
+                if (checkbox.checked) {
+                    passwordField.setAttribute('type', 'text');
+                } else {
+                    passwordField.setAttribute('type', 'password');
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body{
+    background-image: url("/images/enterence.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.nav
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 1000;
+}
+.nav a
+{
+    text-decoration: none;
+    color: #00abf0;
+}
+.nav a:hover
+{
+    color: white;
+    text-shadow: 2px 2px 4px rgb(20, 143, 245);
+}
+.ele
+{
+    justify-content: space-between;
+    padding: 20px;
+} 
+p{
+    text-align: left;
+    width: 80%;
+    margin: 0 left;
+    color:white;
+    font-size: large;
+}
+.img1{
+    position: absolute;
+    top: 10%;
+    left: 600px;
+    height: 400px;
+    width: 350px;
+}
+.img2{
+    position: absolute;
+    top:0;
+    left: 370px;
+    height: 400px;
+    width: 350px;
+}
+.img3{
+    position: absolute;
+    top: 74%;
+    left: 870px;
+}
+.img4{
+    position: absolute;
+    top: 75%;
+    left: 1050px;
+    height: 150px;
+    width: auto;
+}
+marquee {
+    font-family: JokerMan;
+    animation: marquee 20s infinite;
+    font-size: large;
+    color: aqua;
+    scroll-behavior: initial;
+}
+@keyframes marquee {
+    0% {
+        color:pink;
+    }
+    50% {
+        color:cyan;
+    }
+    100% {
+        color:white;
+    }
+}
+
+
+
+

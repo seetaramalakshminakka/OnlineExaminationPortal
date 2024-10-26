@@ -1,0 +1,22 @@
+{
+  "name": "finalprog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "project.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "express-session": "^1.18.0",
+    "file-upload": "^0.0.0",
+    "fileupload": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.3.1",
+    "pug": "^3.0.2"
+  }
+}

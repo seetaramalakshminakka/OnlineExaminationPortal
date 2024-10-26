@@ -1,0 +1,33 @@
+body{
+    background-image: url("/images/dispresult.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1500px 600px;
+}
+.intro {
+    position: absolute;
+    top:10%;
+    /* background-color: pink; */
+    align-items: center;
+    left:45%;
+}
+#me{
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+}
+.intro1{
+    position:absolute;
+    left:930px;
+    background-color: transparent;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    padding: 10px;
+    color:white;
+    font-size: large;
+    top:0%;
+    line-height: 1.5;
+}
+center{
+    color:white;
+}

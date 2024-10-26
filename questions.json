@@ -1,0 +1,668 @@
+[
+      {
+        "question": "Which of the following tag is used for inserting the largest heading in HTML?",
+        "options": ["head", "<h1>", "<h6>", "heading"],
+        "correct_answer_index": 1
+      },
+      {
+        "question": "Which of the following is not a HTML5 tag?",
+        "options": ["<track>", "<video>", "<slider>", "<source>"],
+        "correct_answer_index": 2
+      },
+      {
+        "question": "Which element is used for styling HTML5 layout?",
+        "options": ["CSS", "jQuery", "JavaScript", "PHP"],
+        "correct_answer_index": 0
+      },
+      {
+        "question": "Which HTML tag is used to insert an image?",
+        "options": ["<imgurl=htmllogo.gif />", "<img alt=htmllogo.gif />", "<imgsrc=htmllogo.gif />", "<img link=htmllogo.gif"],
+        "correct_answer_index": 2
+      },
+      {
+        "question": "What is the correct syntax of doctype in HTML5?",
+        "options": ["</doctype html>", "<doctype html>", "<doctype html!>", "<!doctype html>"],
+        "correct_answer_index": 3
+      },
+      {
+        "question": "Which of the following is not a difference between HTML and XHTML?",
+        "options": [
+          "Charset in both HTML and XHTML is text/html",
+          "Tags and attributes are case insensitive in HTML but not in XHTML",
+          "Special characters must be escaped using character entities in XHTML unlike HTML",
+          "Charset in HTML is text/html whereas in XHTML it is application/xml+xhtml"
+        ],
+        "correct_answer_index": 0
+      },
+      {
+        "question": "What is HTML?",
+        "options": [
+          "HTML describes the structure of a webpage",
+          "HTML is not the standard markup language mainly used to create web pages",
+          "HTML does not consist of a set of elements that helps the browser how to view the content",
+          "HTML is a programming language"
+        ],
+        "correct_answer_index": 0
+      },
+      {
+        "question": "Who is the father of HTML?",
+        "options": ["RasmusLerdorf", "Tim Berners-Lee", "Brendan Eich", "Sergey Brin"],
+        "correct_answer_index": 1
+      },
+      {
+        "question": "_____ tag is used before the beginning of the paragraph texts",
+        "options": ["<textarea>", "<sup>", "<p>", "<h1>"],
+        "correct_answer_index": 2
+      },
+      {
+        "question": "html document have a extension ______",
+        "options": [".htx or .htxl", ".htm or .html", ".hmt or hmtl", ".exe"],
+        "correct_answer_index": 1
+      },
+      {
+        "question": "The _____ element can be used to identify your HTML file to the outside worlds",
+        "options": ["title", "body", "head", "paragraph"],
+        "correct_answer_index": 3
+      },
+      {
+        "question": "How many sizes of headers are available in HTML by default?",
+        "options": ["5", "1", "3", "6"],
+        "correct_answer_index": 3
+      },
+      {
+        "question": "Which of the following tags do not require a terminator?",
+        "options": ["<u>", "<br>", "<b>", "<img>"],
+        "correct_answer_index": 1
+      },
+      {
+        "question": "html comment should be enclosed between which characters?",
+        "options": ["<! and - >", "<! And !>", "<!-and", "null"],
+        "correct_answer_index": 0
+      },
+      {
+        "question": "The DTD starts with which of the following?",
+        "options": ["declaration", "DOCTYPE delimiter", "DTD identifier", "HTML tag"],
+        "correct_answer_index": 1
+      },
+      {
+        "question": "Which of the following is not a correct rule for internal subset?",
+        "options": [
+          "The Name in the document type declaration must match the element type of the root element.",
+          "Similar to the DOCTYPE declaration, declaration must match the element type of the root element.",
+          "The element declarations must start with an exclamation mark.",
+          "The document type declaration must appear at the end of the document"
+        ],
+        "correct_answer_index": 3
+      },
+      {
+        "question": "Colors are not defined in HTML using",
+        "options": ["RGB", "Hex values", "RGBA values", "Width and Height"],
+        "correct_answer_index": 3
+      },
+      {
+        "question": "Which property is used to set border colors in HTML?",
+        "options": ["Border-color", "Border", "Background color", "color"],
+        "correct_answer_index": 0
+      },
+      {
+        "question": "Which HTML tag is called the root element of an HTML document?",
+        "options": ["<html>", "<body>", "<title>", "<head>"],
+        "correct_answer_index": 0
+      },
+      {
+        "question": "Which tag is used to define preformatted text?",
+        "options": ["<pf>", "<p>", "<pre>", "<code>"],
+        "correct_answer_index": 2
+      },
+      {
+        "question": "Which HTML tag is used to define strike a line through deleted text?",
+        "options": ["<delete>", "<del>", "<deleted>", "<through>"],
+        "correct_answer_index": 1
+      },  
+      {
+        "question": "Which HTML tag is used to define strike a line through deleted text?",
+        "options": ["<delete>", "<del>", "<deleted>", "<through>"],
+        "correct_answer_index": 1
+      },
+      {
+        "question": "Which of the following is the correct way to send mail in HTML?",
+        "options": [
+          "<a href = \"mailto: xy@y\">",
+          "<a href = \"xy@y\">",
+          "<mail xy@y</mail>",
+          "<div = xyz@s>"
+        ],
+        "correct_answer_index": 0
+      },
+      {
+        "question": "What are the types of unordered or bulleted list in HTML?",
+        "options": [
+          "disc, square, triangle",
+          "polygon, triangle, circle",
+          "disc, circle, square",
+          "disc, alphabets"
+        ],
+        "correct_answer_index": 2
+      },
+      {
+        "question": "What are the types of unordered or bulleted list in HTML?",
+        "options": [
+          "disc, square, triangle",
+          "polygon, triangle, circle",
+          "disc, circle, square",
+          "disc, alphabets"
+        ],
+        "correct_answer_index": 2
+      },
+      {
+        "question": "Which of the following is the correct way to create a list using the lowercase letters?",
+        "options": [
+          "<ol alpha = \"a\" >",
+          "<ol type = \"a\">",
+          "<ol letter = \"a\">",
+          "<ol diff = a>"
+        ],
+        "correct_answer_index": 1
+      }, 
+      {
+        "question": "Which HTML tag is used to define a hyperlink?",
+        "options": ["<a>", "<h>", "<hyperlink>", "<src>"],
+        "correct_answer_index": 0
+      },
+      {
+        "question": "Which tag is used to define preformatted text?",
+        "options": ["<pf>", "<p>", "<pre>", "<code>"],
+        "correct_answer_index": 2
+      },
+      {
+        "question": "Which HTML tag is used to display the text with scrolling effect?",
+        "options": ["<marquee>", "<scroll>", "<div>", "<span>"],
+        "correct_answer_index": 0
+      }, 
+      {
+        "question": "Which of the following tag is used to define options in a drop-down selection list?",
+        "options": ["<select>", "<list>", "<dropdown>", "<option>"],
+        "correct_answer_index": 3
+      },
+      {
+        "question": "Which HTML tag is used to add rows in the table?",
+        "options": ["<td> and </td>", "<th> and </th>", "<tr> and </tr>", "<tc> and </tc>"],
+        "correct_answer_index": 2
+      }, 
+      {
+        "question": "<p> in this p stands for",
+        "options": ["Paper", "Plain", "Paragraph", "Poster"],
+        "correct_answer_index": 2
+      },
+      {
+        "question": "<a> and </a> are the tags used for ______",
+        "options": ["Adding image", "Aligning text", "Audio-voiced text", "Adding links to your page"],
+        "correct_answer_index": 3
+      },
+      {
+        "question": "Which of the following tag is used to create a combo box?",
+        "options": ["<list>", "<select>", "<input type = \"dropdown\">", "<ul>"],
+        "correct_answer_index": 1
+      },
+      {
+        "question": "A program in HTML can be rendered and read by -",
+        "options": ["Web browser", "Server", "Interpreter", "Compiler"],
+        "correct_answer_index": 0
+      },
+      {
+        "question": "The tags in HTML are -",
+        "options": ["case-sensitive", "in upper case", "not case sensitive", "in lowercase"],
+        "correct_answer_index": 2
+      },
+      {
+        "question": "Which of the following is the root tag of the HTML document?",
+        "options": ["<body>", "<head>", "<title>", "<html>"],
+        "correct_answer_index": 3
+      }, 
+      {
+        "question": "In HTML5, which of the following tag is used to initialize the document type?",
+        "options": ["<Doctype HTML>", "<\\Doctype html>", "<Doctype>", "<!DOCTYPE html>"],
+        "correct_answer_index": 3
+      },
+      {
+        "question": "The tag used for creating hypertext and hypermedia links is",
+        "options": ["<HR>", "<BR>", "<PRE>", "<A>"],
+        "correct_answer_index": 3
+      },
+      {
+        "question": "All normal webpages consists of ______",
+        "options": ["Top and bottom", "Body and frameset", "Head and body", "Head and tail"],
+        "correct_answer_index": 2
+      },
+      {
+        "question": "Which of the following tag is used to define a hyperlink?",
+        "options": ["<a>", "<h>", "<hyperlink>", "<src>"],
+        "correct_answer_index": 0
+      },
+      {
+        "question": "Which tag is used to define preformatted text?",
+        "options": ["<pf>", "<p>", "<pre>", "<code>"],
+        "correct_answer_index": 2
+      },
+      {
+        "question": "Which HTML tag is used to define strike a line through deleted text?",
+        "options": ["<delete>", "<del>", "<deleted>", "<through>"],
+        "correct_answer_index": 1
+      },
+      {
+        "question": "Which of the following is the correct way to send mail in HTML?",
+        "options": ["<a href = \"mailto: xy@y\">", "<a href = \"xy@y\">", "<mail xy@y</mail>", "<div = xyz@s>"],
+        "correct_answer_index": 0
+      },
+      {
+        "question": "What are the types of unordered or bulleted list in HTML?",
+        "options": ["disc, square, triangle", "polygon, triangle, circle", "disc, circle, square", "disc, alphabets"],
+        "correct_answer_index": 2
+      },
+      {
+        "question": "Which of the following is the correct way to create a list using the lowercase letters?",
+        "options": ["<ol alpha = \"a\" >", "<ol type = \"a\">", "<ol letter = \"a\">", "<ol diff = a>"],
+        "correct_answer_index": 1
+      },
+      {
+        "question": "Which HTML attribute is used to define inline styles?",
+        "options": ["Style", "Type", "Class", "None"],
+        "correct_answer_index": 0
+      },
+      {
+        "question": "The <hr> tag in HTML is used for________",
+        "options": ["new line", "vertical ruler", "new paragraph", "horizontal ruler"],
+        "correct_answer_index": 3
+      },
+      {
+        "question": "Which of the following HTML tag is used to display the text with scrolling effect?",
+        "options": ["<marquee>", "<scroll>", "<div>", "<span>"],
+        "correct_answer_index": 0
+      },
+      {
+        "question": "Which of the following tag is used to define options in a drop-down selection list?",
+        "options": ["<select>", "<list>", "<dropdown>", "<option>"],
+        "correct_answer_index": 3
+      },
+        {
+          "question": "Which of the following engine Node in core?",
+          "options": ["Chrome V8", "Microsoft Chakra", "SpiderMonkey", "Node En"],
+          "correct_answer_index": 0
+        },
+        {
+          "question": "Which of the following areas, Node.js, is not advised to be used?",
+          "options": ["Single Page Applications", "JSON APIs based Applications", "CPU intensive applications", "Data-Intensive Real-time Applications (DIRT)"],
+          "correct_answer_index": 2
+        },
+        {
+          "question": "Which of the following is the correct syntax to initiate the Node.js File?",
+          "options": ["filename.js", "javascript filename.js", "node filename.js", "node filename"],
+          "correct_answer_index": 2
+        },
+        {
+          "question": "Which of the following platforms does Node.js support?",
+          "options": ["Windows", "Macintosh", "Unix/Linux", "Windows, Mac, Unix"],
+          "correct_answer_index": 3
+        },
+        {
+          "question": "Which of the following shortcut command is used to kill a process in Node.js?",
+          "options": ["Ctrl+B", "Ctrl+K", "Ctrl+T", "Ctrl+C"],
+          "correct_answer_index": 3
+        },
+        {
+          "question": "Which of the following route parameter formats are valid?",
+          "options": ["/books/!:from-:to", "/flights/:from-:to", "/users/:userId/books/:bookId", "../flights/../user"],
+          "correct_answer_index": 0
+        },
+        {
+          "question": "Which of the following is a GUI-based debugging tool for Node.js?",
+          "options": ["Core node debugger", "Console", "REPL", "Node Inspector"],
+          "correct_answer_index": 3
+        },
+        {
+          "question": "How many Node object methods are available?",
+          "options": ["21", "18", "19", "20"],
+          "correct_answer_index": 1
+        },
+        {
+          "question": "Which of the following types of applications can be not built using Node.js?",
+          "options": ["Web application", "Chat Application", "RESTful Service", "Chat GPT"],
+          "correct_answer_index": 3
+        },
+        {
+          "question": "Which of the following is used to test if two nodes are equal?",
+          "options": ["==", "equal()", "isEqualNode()", "compare()"],
+          "correct_answer_index": 2
+        },
+        {
+          "question": "Which of the following tool is used to automate the various tasks of the Node.js application?",
+          "options": ["Express.js", "GruntJS", "NPM", "pip"],
+          "correct_answer_index": 1
+        },
+        {
+          "question": "Which of the following is not a benefit of using modules in Express?",
+          "options": ["It provides a means of dividing up tasks.", "It provides a means of reuse of program code.", "It provides a means of reducing the size of the program.", "It provides a means of testing individual parts of the program."],
+          "correct_answer_index": 2
+        },
+            {
+              "question": "In which language is Node.js written?",
+              "options": ["Javascript", "Python", "C", "C++"],
+              "correct_answer_index": 0
+            },
+            {
+              "question": "What will be the output of the following code snippet? var a = Math.max(); var b = Math.min(); print(a); print(b);",
+              "options": ["-infinity Infinity", "infinity -Infinity", "infinity Infinity", "-infinity -Infinity"],
+              "correct_answer_index": 0
+            },
+            {
+              "question": "What will be the output of the following code snippet? var a = true + true + true * 3; print(a)",
+              "options": ["3", "0", "Error", "5"],
+              "correct_answer_index": 3
+            },
+            {
+              "question": "Which of the following statements are true?",
+              "options": ["js is Server Side Language.", "js is the Client-Side Language.", "js is both Server Side and Client-Side Language.", "js is not considered"],
+              "correct_answer_index": 0
+            },
+            {
+              "question": "What does the REPL stand for?",
+              "options": ["REPL stands for \"Read Eval Print Loop.\"", "REPL stands for \"Research Eval Program Learn.\"", "REPL stands for \"Read Earn Point Learn.\"", "REPL stands for \"Read Eval Point Loop.\""],
+              "correct_answer_index": 0
+            },
+            {
+              "question": "Which of the following method can append specified content to a file?",
+              "options": ["fs.appendFile()", "fs.open()", "fs.writeFile()", "fs.read()"],
+              "correct_answer_index": 0
+            },
+            {
+              "question": "What is the use of underscore variable in REPL session in Node.js?",
+              "options": ["It is used to store the result.", "It is used to get the last command used.", "It is used to get the last result.", "Uses for pass action"],
+              "correct_answer_index": 2
+            },
+            {
+              "question": "Which of the following Node.js object property is used to return the node immediately before a node?",
+              "options": ["localName", "index", "previousSibling", "textContent"],
+              "correct_answer_index": 2
+            },
+            {
+              "question": "What does the fs module stand for?",
+              "options": ["File Service", "File System", "File store", "File Sharing"],
+              "correct_answer_index": 1
+            },
+            {
+              "question": "Which of the following template engines can be used with Node.js?",
+              "options": ["Jade", "Vash", "Handlebars", "Jre"],
+              "correct_answer_index": 2
+            },
+            {
+              "question": "Which of the following module is not a built-in node module?",
+              "options": ["zlib", "https", "dgram", "fsread"],
+              "correct_answer_index": 3
+            },
+            {
+              "question": "Which of the following keyword is used to make properties and methods available outside the module file?",
+              "options": ["import", "module", "export", "require"],
+              "correct_answer_index": 2
+            },
+            {
+              "question": "What is the default scope in the Node.js application?",
+              "options": ["Global", "Local", "Global Function", "Local to object"],
+              "correct_answer_index": 1
+            },
+            {
+              "question": "Which of the following method is used to return the current working directory of the process?",
+              "options": ["cwd()", "cvd()", "pwd()", "cd"],
+              "correct_answer_index": 0
+            },
+            {
+                "question": "Which built-in method removes the last element from an array and returns that element?",
+                "options": ["last()", "get()", "pop()", "push()"],
+                "correct_answer_index": 2
+              },
+              {
+                "question": "The _______ method of an Array object adds and/or removes elements from an array.",
+                "options": ["Reverse", "Shift", "Slice", "Splice"],
+                "correct_answer_index": 3
+              },
+              {
+                "question": "How ++ works in Javascript? Find output of below Javascript code.var a = 1; document.write(a--); document.write(a);",
+                "options": ["00", "01", "11", "10"],
+                "correct_answer_index": 3
+              },
+              {
+                "question": "Which of the following method checks if its argument is not a number?",
+                "options": ["isNaN()", "nonNaN()", "NaN()", "Negation()"],
+                "correct_answer_index": 0
+              },
+              {
+                "question": "What if you use parseInt() to convert a string containing decimal value?",
+                "options": ["Throws Error", "It returns the decimal values in string form", "If returns only the integer portion of the number", "Does not happen anything"],
+                "correct_answer_index": 2
+              },
+              {
+                "question": "What is the output of below Javascript code?alert (typeof new Date() );",
+                "options": ["Throws Error", "object", "Displays Nothing", "Current Date"],
+                "correct_answer_index": 1
+              },
+              {
+                "question": "When an operator value is NULL, the type of returned by the unary operator is",
+                "options": ["Boolean", "Undefined", "Object", "Integer"],
+                "correct_answer_index": 2
+              },
+              {
+                "question": "What does the Javascript debugger statement do?",
+                "options": ["It will not debug all the errors in the program at runtime.", "It acts as a breakpoint in a program", "It will not debug error in the current statement if any", "It will be available for all compilers"],
+                "correct_answer_index": 1
+              },
+              {
+                "question": "When the switch statement matches the expression with the given labels, how is the comparison done?",
+                "options": ["Both the datatype and the result of the expression are compared.", "Only the datatype of the expression is compared.", "Only the value of the expression is compared", "Nothing is compared"],
+                "correct_answer_index": 2
+              },
+              {
+                "question": "Which of the following function of String object returns the calling string value converted to upper case while respecting the current locale",
+                "options": ["toLocaleUpperCase()", "toUpperCase()", "toString()", "substring()"],
+                "correct_answer_index": 0
+              },
+              {
+                "question": "Which of the following function of Array object creates a new array with the results of calling a provided function on every element in this array?",
+                "options": ["push()", "join()", "pop()", "map()"],
+                "correct_answer_index": 3
+              },
+              {
+                "question": "Which of the following function of Array object reverses the order of the elements of an array?",
+                "options": ["reverse()", "push()", "reduce()", "reduceRight()"],
+                "correct_answer_index": 0
+              },
+              {
+                "question": "What will be the output of the following code snippet? <script type=\"text/javascript\"> a = 5 + \"9\"; document.write(a); </script>",
+                "options": ["Compilation error", "14", "Runtime error", "59"],
+                "correct_answer_index": 3
+              },
+              {
+                "question": "Which of the following extension is used to save the Node.js files?",
+                "options": [".s", ".node", ".java", ".txt"],
+                "correct_answer_index": 0
+              },
+              {
+                "question": "Which of the following method of fs module is used to get file information?",
+                "options": ["fs.open(path, flags[, mode], callback)", "fs.stat(path, callback)", "fs.readFile(path, flags[, mode], callback)", "fs.read(path,callback)"],
+                "correct_answer_index": 1
+              },
+              {
+                "question": "In which language is Node.js written ?",
+                "options": ["Javascript", "Python", "C", "C++"],
+                "correct_answer_index": 1
+            },
+            {
+                "question": "Which of these is a correct output for the JavaScript code given below? (c) string X= Hey; string Y=There; alert(X+Y);",
+                "options": ["Hey There", "Hey_There", "HeyThere", "undefined"],
+                "correct_answer_index": 2
+              },
+              {
+                "question": "Look at the snippets given below and check the one in which the variable a isn't equal to NULL.",
+                "options": ["if (a!)", "if(a!=null)", "if(a!==null)", "if(a!null)"],
+                "correct_answer_index": 2
+              },
+              {
+                "question": "Which symbol is used to separate JavaScript statements?",
+                "options": [",", ":", "-", ";"],
+                "correct_answer_index": 3
+              },
+              {
+                "question": "Which event is related to the keyboard?",
+                "options": ["Onfocus", "onclick", "onkeydown", "onkeypress"],
+                "correct_answer_index": 3
+              },
+              {
+                "question": "Which one is not a mouse event?",
+                "options": ["Onmouseover", "onmousemove", "onclick", "onmousescroller"],
+                "correct_answer_index": 3
+              },
+              {
+                "question": "Which of these functions of the Number Object would format a number with different numbers of digits to the decimals right?",
+                "options": ["toFixed()", "toExponential()", "toLocaleString()", "toPrecision()"],
+                "correct_answer_index": 0
+              },
+              {
+                "question": "Which of the following is correct about features of JavaScript?",
+                "options": ["It can not handle dates and time.", "JavaScript is an object-based scripting language.", "JavaScript is not an interpreter-based scripting language.", "It is not a Programming Language"],
+                "correct_answer_index": 1
+              },
+              {
+                "question": "Which of the following is not an advantage of JavaScript?",
+                "options": ["Less server interaction", "Increased interactivity", "Richer interfaces", "Lower interface"],
+                "correct_answer_index": 3
+              },
+              {
+                "question": "Which of these keywords is used to define various functions in JavaScript?",
+                "options": ["function", "main", "init", "Void"],
+                "correct_answer_index": 0
+              },
+              {
+                "question": "In case a value of an operator is NULL, then the unary operator would return the _________ type of.",
+                "options": ["object", "boolean", "string", "undefined"],
+                "correct_answer_index": 3
+              },
+              {
+                "question": "Which of these is not a keyword?",
+                "options": ["debugger", "use strict", "with", "if"],
+                "correct_answer_index": 1
+              },
+              {
+                "question": "Which of these methods or operators are used for identifying an array?",
+                "options": ["isArrayType()", "===", "==", "typeof"],
+                "correct_answer_index": 0
+              },
+              {
+                "question": "A function's execution would stop whenever a program control would encounter the _________ statement in the function's body.",
+                "options": ["goto statement", "break statement", "continue statement", "return statement"],
+                "correct_answer_index": 3
+              },
+              {
+                "question": "Consider the code snippet given below var count = [1,,3]; What is the observation made?",
+                "options": ["The omitted value takes undefined", "This results in an error", "This results in an exception", "The omitted value takes an integer value"],
+                "correct_answer_index": 0
+              },
+              {
+                "question": "Which built-in method removes the last element from an array and returns that element?",
+                "options": ["last()", "get()", "pop()", "push()"],
+                "correct_answer_index": 2
+              },
+              {
+                "question": "Choose the correct HTML tag to make a text italic",
+                "options": ["<i>", "<italic>", "<it>", "<il>"],
+                "correct_answer_index": 0
+              },
+              {
+                "question": "What does the <br> tag add to your webpage?",
+                "options": ["Long break", "Paragraph break", "Line break", "Page Break"],
+                "correct_answer_index": 2
+              },
+              {
+                "question": "Which program do you need to write HTML?",
+                "options": ["A graphics program", "Any text editor", "HTML -development suite 4", "MS Word"],
+                "correct_answer_index": 1
+              },
+              {
+                "question": "Which of the following is correct about JavaScript?",
+                "options": ["JavaScript is an Object-Based language", "JavaScript is Assembly-language", "JavaScript is an Object-Oriented language", "JavaScript is a High-level language"],
+                "correct_answer_index": 0
+              },
+              {
+                "question": "Among the given statements, which statement defines closures in JavaScript?",
+                "options": ["JavaScript is a function that is enclosed with references to its inner function scope", "JavaScript is a function that is enclosed with references to its lexical environment", "JavaScript is a function that is enclosed with the object to its inner function scope", "JavaScript is a compiled language used to make the website interactive"],
+                "correct_answer_index": 1
+              },
+              {
+                "question": "To start a list using circles, use",
+                "options": ["<ul round>", "<ul type=circle>", "<ul type=round>", "<ul =round>"],
+                "correct_answer_index": 1
+              },
+              {
+                "question": "<! Is a ______",
+                "options": ["Comment tag", "Underlined tag", "Underlined with italic tag", "Bold"],
+                "correct_answer_index": 0
+              },
+              {
+                "question": "To create a bulleted list, use _____",
+                "options": ["<ol>", "<ul>", "<il>", "<p>"],
+                "correct_answer_index": 1
+              },
+              {
+                "question": "Increasing the cellpadding means __________",
+                "options": ["Increase the softness of your site", "Increase the space between cells", "Increase the distance between cell and content", "Increase the distance between content"],
+                "correct_answer_index": 2
+              },
+              {
+                "question": "A much better approach to establish the base URL is to use the ______ element",
+                "options": ["HEAD", "BODY", "BASE", "TOWER"],
+                "correct_answer_index": 2
+              },
+              {
+                "question": "What will be the output of the following JavaScript code snippet? int a=1; if(a!=null) return 1; else return 0;",
+                "options": ["0", "1", "Compile error", "Runtime error"],
+                "correct_answer_index": 1
+              },
+              {
+                "question": ". What will be the output of the following JavaScript code?function height() { var height = 123.56; var type = (height>=190) ? 'tall' : 'short'; return type; }",
+                "options": ["Short", "123.56", "Tall", "190"],
+                "correct_answer_index": 0
+              },
+              {
+                "question": "Which of the following is not javascript data types?",
+                "options": ["Null type", "Undefined type", "Number type", "Function type"],
+                "correct_answer_index": 3
+              },
+              {
+                "question": "What will be the output of the following JavaScript code?<p id='demo'></p> <script> var js = 10; js *= 5; document.getElementById('demo').innerHTML = js; </script>",
+                "options": ["10", "50", "5", "15"],
+                "correct_answer_index": 1
+              },
+              {
+                "question": "Arrays in JavaScript are defined by which of the following statements?",
+                "options": ["It is an ordered list of values", "It is an ordered list of objects", "It is an ordered list of strings", "It is an ordered list of functions"],
+                "correct_answer_index": 0
+              },
+              {
+                "question": "What will be the output of the following JavaScript code? function compare() { int num=2; char b=2; if(a==b) return true; else return false; }",
+                "options": ["False", "True", "Compilation error", "Runtime error"],
+                "correct_answer_index": 1
+              },
+              {
+                "question": "Will the javascript code work?varjs = (function(x) {return x*x;}(10));",
+                "options": ["Exception will be thrown", "Memory leak", "Error", "Yes, Perfectly"],
+                "correct_answer_index": 3
+              },
+              {
+                "question": "What will be the output of the following JavaScript code?int a=0; for(a;a<5;a++); console.log(a);",
+                "options": ["4", "5", "0", "Error"],
+                "correct_answer_index": 1
+              },
+              {
+                "question": "Which of the following methods/operations does JavaScript use instead of == and !=?",
+                "options": ["JavaScript uses equalto()", "JavaScript uses equals() and notequals() instead", "JavaScript uses bitwise checking", "JavaScript uses === and !== instead"],
+                "correct_answer_index": 3
+              }                                                                                                                           
+]
+  

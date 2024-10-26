@@ -1,0 +1,106 @@
+doctype html
+html(lang="en")
+  head
+    style.
+      body {
+        background-image: url('images/th3.jpg');
+        background-size: cover;
+        font-family: JokerMan;
+      }
+      h1, h2 {
+        text-align: center;
+        font-family: JokerMan;
+        color: white;
+        text-shadow: 10px 50px 15px rgba(21,15,20,0.7);
+      }
+      table, th, td, tr {
+        text-align: center;
+        border: 3px solid;
+        margin: auto;
+        border-collapse: collapse;
+      }
+      td {
+        padding: 20px;
+      }
+      th {
+        background-color: white;
+      }
+      table {
+        width: 30%;
+        height: 200px;
+      }
+      img {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 40%;
+        left: calc(50% - 85px);
+      }
+      button{
+        color:white;
+        background-color:transparent;
+        font-family: JokerMan;
+        height:30px;
+        width:400px;
+        text-align:center;
+      }
+      div::before, div::after {
+        content: "";
+        position: absolute;
+        height: 5px;
+        width: calc(50% - 25px);
+        background-color: white;
+        top: 33%;
+        z-index: -1;
+      }
+      div::before {
+        left: 10px;
+      }
+      div::after {
+        right: 10px; /* Adjust position of the right line */
+      }
+      .center{
+        text-align:center;
+      }
+    script.
+      document.addEventListener('DOMContentLoaded', function() {
+        var score = parseFloat('#{data1.score}');
+
+        var percentage = (score*10).toFixed(2);
+        document.getElementById('percentage').innerText = percentage + "%";
+
+        var grade = '';
+        if (percentage >= 90) {
+          grade = 'A+';
+        } else if (percentage >= 80) {
+          grade = 'A';
+        } else if (percentage >= 70) {
+          grade = 'B';
+        } else if (percentage >= 60) {
+          grade = 'C';
+        } else if (percentage >= 50) {
+          grade = 'D';
+        } else {
+          grade = 'F';
+        }
+        document.getElementById('grade').innerText = grade;
+      });
+  body
+    div.one
+      h1 welcome #{data1.user}
+    div
+      img(src=image height=150 width=170)
+    h2  #{data1.user} Here &#128071;  is your markslist &#9997;
+    table
+      tr
+        th SCORE
+        td=data1.score 
+      tr
+        th PERCENTAGE 
+        td(id='percentage')
+      tr
+        th GRADE 
+        td(id='grade')
+    div.center
+        button(type="button" onclick="window.location.href='/main.html'") MAIN MENU
+     

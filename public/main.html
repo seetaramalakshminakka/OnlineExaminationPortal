@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("images/th 2.jpg");
+            background-size: cover;
+        }
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            /* background-color: yellowgreen; */
+        }
+        .nleft
+        {
+            margin-left: 50px;
+            padding: 15px;
+            font-size: 15px;
+            font-weight: 700;
+            color: #00abf0;
+        }
+        .nleft a
+        {
+            text-decoration: none;
+            color: #00abf0;
+        }
+        .nleft a:hover
+        {
+            color: white;
+            text-shadow: 2px 2px 4px rgb(20, 143, 245);
+        }
+        .nright
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: center;    
+            font-weight: 700;
+            transition: 10s;
+        }
+        .nright a:hover
+        {
+            color: white;
+            text-shadow: 2px 2px 4px rgb(20, 143, 245);
+        }
+        .ele
+        {
+            margin: 10px;
+            padding: 20px;
+            justify-content: space-between;
+            text-decoration: none;
+            font-family: JokerMan;
+        }
+        h1{
+            font-family: JokerMan;
+            text-align: center;
+        }
+        img{
+             position: relative;
+             left:30%;
+             height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="nleft"></div>
+        <div class="nright">
+        <a href="/viewscore" class="ele">VIEW SCORE</a>
+        <a href="/viewprofile" class="ele">VIEW PROFILE</a>
+        <a href="/startexam" class="ele">TAKE EXAM</a>
+        <a href="/logout" class="ele" id="logout">LOGOUT</a>
+        </div>
+    </div>
+    <h1>WELCOME TO ONLINE-EXAMINATION PORTAL</h1>
+    <img src="/images/girlly-removebg-preview.png">
+</body>
+</html>

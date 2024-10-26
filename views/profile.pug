@@ -1,0 +1,101 @@
+doctype html
+html(lang="en")
+  head
+    style.
+      body {
+        background-image: url('images/th3.jpg');
+        background-size: cover;
+        font-family: JokerMan;
+        //- text-align: center
+      }
+      h1, h2 {
+        text-align: center;
+        font-family: JokerMan;
+        color:white;
+        text-shadow: 10px 50px 15px rgba(205,135,210,0.75);
+      }
+      table, th, td, tr {
+        text-align: center;
+        border: 3px solid;
+        margin: auto;
+        border-collapse: collapse;
+      }
+      td {
+        padding: 20px;
+      }
+      th {
+        background-color: skyblue;
+      }
+      table {
+        width: 30%;
+        height: 200px;
+      }
+      img {
+        position: relative;
+        width: 170px;
+        height: 170px;
+        border-radius: 40%;
+        left: calc(50% - 85px);
+      }
+      button{
+        color:white;
+        background-color:transparent;
+        font-family: JokerMan;
+        height:30px;
+        width:440px;
+        text-align:center;
+      }
+      div::before, div::after {
+        content: "";
+        position: absolute;
+        height: 5px;
+        width: calc(50% - 25px);
+        background-color: white;
+        top: 30%;
+        z-index: -1;
+      }
+      div::before {
+        left: 10px;
+      }
+      div::after {
+        right: 10px;
+      }
+      .center{
+        text-align:center;
+      }
+  body
+    div.one
+      h1 welcome #{data1.user}
+    div
+      img(src=image height=150 width=170)
+    h2  #{data1.user} Here &#128071;  is your details &#9997;
+    table
+      tr
+        th NAME
+        td=data1.user
+      tr
+        th PIN
+        td=data1.pin
+      tr
+        th FATHER_NAME
+        td=data1.Fathername
+      tr 
+        th MOTHER_NAME
+        td=data1.Mothername 
+      tr
+        th DOB 
+        td=data1.Dateofbirth
+      tr
+        th EMAIL
+        td=data1.Email
+      tr
+        th MOBILE_NUMER
+        td=data1.Mobilenumber
+      tr
+        th ADDRESS
+        td=data1.Address
+      tr
+        th Gender 
+        td=data1.Gender
+    div.center
+        button(type="button" onclick="window.location.href='/main.html'") MAIN MENU

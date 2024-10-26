@@ -1,0 +1,33 @@
+doctype html
+html
+  head
+    title= title
+    style.
+      body {
+        background-image: url('images/th3.jpg');
+        background-size: cover;
+        font-family: JokerMan;
+      }
+      div{
+        height:200px;
+        width:100px;
+        background-color:transparent;
+        color:white;
+        text-align:center;
+        margin:auto;
+      }
+      button{
+        color:BLACK;
+        background-color:transparent;
+        font-family: JokerMan;
+        //- height:30px;
+        //- width:440px;
+        text-align:center;
+      }
+    //- link(rel='stylesheet', href='/styles.css')
+  body
+    div 
+      h1 Results
+      p Your score is: #{score}
+      div.center
+        button(type="button" onclick="window.location.href='/main.html'") MAIN MENU

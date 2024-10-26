@@ -1,0 +1,46 @@
+doctype html
+html(lang='en')
+  head
+    title Random Questions
+    style.
+      body{
+        background-image:url('images/th3.jpg');
+        background-repeat:no-repeat;
+        background-size:cover
+      }
+      h1,h2,.s1{
+        text-align:center;
+        font-family:JokerMan;
+      }
+      div{
+        margin-left:200px;
+        background-color:transparent;
+        margin-right:200px;
+        border:2px solid white;  
+      }
+      .s1{
+        margin-left:420px;
+      }
+  body
+    h1  ALL THE BEST!!!DO WELL
+    h2(id='timer') TIMER
+    div
+      form(id='exam-form', action='/submit-answers', method='post')
+        each question, questionIndex in questions
+          fieldset
+            legend= question.question
+            each option, optionIndex in question.options
+              label
+                input.s2(type='radio' name=`question${questionIndex}` value=optionIndex)
+                | #{option}
+        input.s1(type='submit' value='Submit Answers' )
+    script.
+      let timeLeft = 300;
+      let timerInterval = setInterval(() => {
+        timeLeft--;
+        document.getElementById('timer').innerHTML = `Time left: ${Math.floor(timeLeft / 60)}:${String(timeLeft % 60).padStart(2, '0')}`;
+        if (timeLeft <= 0) {
+          clearInterval(timerInterval);
+          document.getElementById('exam-form').submit();
+        }
+      }, 1000);

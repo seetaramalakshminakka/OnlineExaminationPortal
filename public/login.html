@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <h1>WELCOME TO ADITYA COLLEGE OF ENGINEERING</h1>
+    <h2 class="sp1">CSE DEPARTMENT III<sup>3rd</sup> YEAR</h2>
+    <div class="cselogin">
+        <form id="myForm" action="/check" method="POST">
+            <h1 class="sp">LOGIN HERE</h1>
+            <h4 align="center">new user?<a href="signup.html">Register</a></h4>
+            <table cellspacing="2px" cellpadding="10px" align="center" class="tb">
+                <tr> 
+                    <td class="icon-input-container">
+                        <i class="fas fa-user"></i> 
+                        <input type="text" id="name1" name="name1" class="rounded-input" placeholder="Enter Name" required/>
+                    </td>
+                </tr>
+                <tr> 
+                    <td class="icon-input-container">
+                        <i class='fas fa-user-lock'></i>
+                        <input type="password" id="pass1" name="pass1" class="rounded-input" placeholder="Enter Password:" required/><br>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td class="sp2"><input type="checkbox" id="check" >show password</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" class="submit" /></td>
+                </tr>
+            </table>
+            <h4 align="center"><a href="forgot.html">forget password?</a></h4>
+        </form>
+        <img src="/images/girl-removebg-preview.png" class="signing-icon" left="0" bottom="0" position="fixed"/>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const checkbox = document.getElementById('check');
+            const passwordField = document.getElementById('pass1');
+    
+            checkbox.addEventListener('change', function () {
+                if (checkbox.checked) {
+                    passwordField.setAttribute('type', 'text');
+                } else {
+                    passwordField.setAttribute('type', 'password');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
