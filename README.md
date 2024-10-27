@@ -24,12 +24,12 @@ _The first page users see on loading the portal._
 ### Login Page
 _Users are required to log in with their credentials._
 
-![Login Page](path_to_login_image)
+![Login Page](public/images/WhatsApp%20Image%202024-10-27%20at%2018.37.45.jpeg)
 
 ### Registration Page
 _New users can register by providing necessary details._
 
-![Registration Page](path_to_registration_image)
+![Registration Page](public/images/WhatsApp%20Image%202024-10-27%20at%2018.42.11.jpeg)
 
 ## User Workflow
 
