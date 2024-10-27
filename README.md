@@ -122,7 +122,6 @@ The **Logout** option logs the user out and redirects them to the **Login Page**
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Framework**: Angular
 - **Tools**: VS Code, Postman (for API testing)
 
 ## Installation & Setup
@@ -130,7 +129,7 @@ The **Logout** option logs the user out and redirects them to the **Login Page**
 ### Prerequisites
 - **Node.js** (version 14.x or above)
 - **MongoDB** (local or cloud-based)
-- **Angular CLI** (version 12.x or above)
+
 
 ### Clone the Repository
 ```bash
