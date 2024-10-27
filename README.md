@@ -8,7 +8,7 @@ The **Online Examination Portal** is a web-based application that allows student
 ### 1. Home Page
 The **Home Page** is the first page users see when they access the portal. It contains options to either log in or register as a new user.
 
-![Home Page](public/images/WhatsApp%20Image%202024-10-27%20at%2018.36.13.jpg)
+![Home Page](public/images/WhatsApp%20Image%202024-10-27%20at%2018.36.13.jpeg)
 
 **Redirection**:  
 - Clicking on **Login** redirects to the **Login Page**.
@@ -134,5 +134,5 @@ The **Logout** option logs the user out and redirects them to the **Login Page**
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/online-examination-portal.git
-cd online-examination-portal
+git clone https://github.com/seetaramalakshminakka/OnlineExaminationPortal.git
+cd OnlineExaminationPortal
