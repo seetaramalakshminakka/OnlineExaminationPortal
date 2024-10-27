@@ -19,7 +19,7 @@ The **Online Examination Portal** is a web-based application that allows student
 ### Home Page
 _The first page users see on loading the portal._
 
-![Home Page](path_to_homepage_image)
+![Home Page](public/images/WhatsApp%20Image%202024-10-27%20at%2018.36.13)
 
 ### Login Page
 _Users are required to log in with their credentials._
